@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pandavs Wine Bar</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #111;
+      color: #fff;
+    }
+    header {
+      background: linear-gradient(90deg, #4b0000, #8b0000);
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #222;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: gold;
+    }
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+    .brands {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #222;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(255,0,0,0.5);
+    }
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      background: gold;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>PANDAVS WINE BAR</h1>
+  <p>Owner: Akshay Pandav</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#brands">Wine Brands</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+  <h2>Welcome to Pandavs Wine Bar</h2>
+  <p>Luxury Experience | Premium Wines | Best Ambience</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>Pandavs Wine Bar is a premium destination offering world-class wines and an unforgettable experience.</p>
+</section>
+
+<section id="brands">
+  <h2>Top Wine Brands</h2>
+  <div class="brands">
+    <div class="card">Jacob's Creek</div>
+    <div class="card">Sula Vineyards</div>
+    <div class="card">Fratelli Wines</div>
+    <div class="card">Grover Zampa</div>
+    <div class="card">Yellow Tail</div>
+    <div class="card">Barefoot Wine</div>
+    <div class="card">Hardys Wine</div>
+    <div class="card">Beringer</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: pandavswinebar@gmail.com</p>
+  <p>Phone: +91 7218105100</p>
+  <button onclick="bookTable()">Book Table</button>
+</section>
+
+<footer>
+  <p>© 2026 Pandavs Wine Bar | Designed by Akshay Pandav</p>
+</footer>
+
+<script>
+  function bookTable() {
+    alert("Table booking feature coming soon!");
+  }
+</script>
+
+</body>
+</html>
